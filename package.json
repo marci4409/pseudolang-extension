@@ -2,7 +2,7 @@
   "name": "pseudolang",
   "displayName": "Pseudokod",
   "description": "Rozszerzenie dodające obsługę pseudokodu.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "publisher": "marci4409",
   "icon": "assets/logo.png",
   "engines": {
@@ -37,6 +37,13 @@
           ".txt"
         ],
         "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "pseudolang",
+        "scopeName": "source.pseudolang",
+        "path": "./syntaxes/pseudolang.tmLanguage.json"
       }
     ]
   },
