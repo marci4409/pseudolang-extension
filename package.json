@@ -2,7 +2,7 @@
   "name": "pseudolang",
   "displayName": "Pseudokod",
   "description": "Rozszerzenie dodające obsługę pseudokodu.",
-  "version": "0.0.10",
+  "version": "0.1.0",
   "publisher": "marci4409",
   "icon": "assets/logo.png",
   "engines": {
@@ -54,7 +54,9 @@
     "eslint": "^9.13.0",
     "prettier": "^3.4.2",
     "typescript": "^5.7.2",
-    "typescript-eslint": "^8.16.0",
+    "typescript-eslint": "^8.16.0"
+  },
+  "devDependencies": {
     "vscode": "^1.1.37"
   }
 }
