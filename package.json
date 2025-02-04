@@ -2,7 +2,7 @@
   "name": "pseudolang",
   "displayName": "Pseudokod",
   "description": "Rozszerzenie dodające obsługę pseudokodu.",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "publisher": "marci4409",
   "icon": "assets/logo.png",
   "engines": {

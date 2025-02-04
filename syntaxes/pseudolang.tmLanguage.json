@@ -33,7 +33,7 @@
       "patterns": [
         {
           "name": "keyword.control",
-          "match": "\\b(Constant|Declare|Set|Input|Display|Call|If|End If|Then|Else|While|Break|End While|For|To|End For|Open|Write|Select|End Select|Case|Default|Do|Return)\\b"
+          "match": "\\b(Constant|Declare|Set|Input|Display|Call|If|End If|Then|Else|While|Break|End While|For|To|End For|Open|Write|Close|Read|Select|End Select|Case|Default|Do|Return)\\b"
         }
       ]
     },

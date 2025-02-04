@@ -104,7 +104,7 @@ export const keywordInstructions = [
     label: 'Else If',
     detail: 'W przeciwnym wypadku jeżeli.',
     insertText: new vscode.SnippetString(
-      'Else If ${1:warunek}\n\t${2:instrukcje}'
+      'Else If ${1:warunek} Then\n\t${2:instrukcje}'
     ),
   },
   {
@@ -202,7 +202,7 @@ export const keywordInstructions = [
     label: 'Write',
     detail: 'Zapisanie wartości zmiennej do pliku.',
     insertText: new vscode.SnippetString(
-      'Read ${1:zmiennaPlikowa} ${2:zmiennaTresc}'
+      'Write ${1:zmiennaPlikowa} ${2:zmiennaTresc}'
     ),
   },
 ];
