@@ -1,0 +1,60 @@
+{
+  "name": "pseudolang",
+  "displayName": "Pseudokod",
+  "description": "Rozszerzenie dodające obsługę pseudokodu.",
+  "version": "0.0.10",
+  "publisher": "marci4409",
+  "icon": "assets/logo.png",
+  "engines": {
+    "vscode": "^1.39.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "repository": {
+    "url": "https://github.com/marci4409/pseudolang-extension"
+  },
+  "author": {
+    "name": "marci4409",
+    "email": "marsjaninsloce@gmail.com"
+  },
+  "activationEvents": [
+    "*"
+  ],
+  "main": "out/index.js",
+  "contributes": {
+    "languages": [
+      {
+        "id": "pseudolang",
+        "aliases": [
+          "pseudocode",
+          "pseudo-code",
+          "pseudolang"
+        ],
+        "extensions": [
+          ".pseudocode",
+          ".pseudo",
+          ".txt"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ]
+  },
+  "scripts": {
+    "watch": "tsc -watch -p ./",
+    "package": "vsce package",
+    "prettier": "prettier . --write"
+  },
+  "dependencies": {
+    "@eslint/js": "^9.13.0",
+    "@stylistic/eslint-plugin": "^2.9.0",
+    "@types/node": "^20",
+    "@types/vscode": "^1.73.0",
+    "@vscode/vsce": "^3.2.1",
+    "eslint": "^9.13.0",
+    "prettier": "^3.4.2",
+    "typescript": "^5.7.2",
+    "typescript-eslint": "^8.16.0",
+    "vscode": "^1.1.37"
+  }
+}
